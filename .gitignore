@@ -1,0 +1,7 @@
+*.d
+*.o
+*.htm
+
+MDK-ARM/ws2812_board/ws2812_board.axf
+MDK-ARM/ws2812_board/ws2812_board.lnp
+MDK-ARM/ws2812_board/ws2812_board.map
