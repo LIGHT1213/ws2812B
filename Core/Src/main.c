@@ -29,6 +29,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ws2812b.h"
+#include "oled.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -97,7 +98,9 @@ int main(void)
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 	HAL_TIM_PWM_Init(&htim3);
-
+    uint8_t t;
+    OLED_Init();
+    t=' ';
 
   /* USER CODE END 2 */
 
@@ -105,14 +108,27 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		  SetLedColor(&MyWs2812,1,120,1,120);
-      SetLedColor(&MyWs2812,2,0,255,0);
-      SetLedColor(&MyWs2812,3,255,255,255);
-      SetLedColor(&MyWs2812,4,255,0,0);
-      SetLedColor(&MyWs2812,5,0,0,0);
-      Ws2812bUpdate();
-      HAL_Delay(1000);
 
+    /* Infinite loop */
+    		OLED_Clear();
+	//	LED_ON;
+		OLED_ShowCHinese(0,0,0);//�?
+		OLED_ShowCHinese(18,0,1);//�?
+		OLED_ShowCHinese(36,0,2);//�?
+		OLED_ShowCHinese(54,0,3);//�?
+		OLED_ShowCHinese(72,0,4);//�?
+		OLED_ShowCHinese(90,0,5);//�?
+		OLED_ShowCHinese(108,0,6);//�?
+		OLED_ShowString(0,3,"1.3' OLED TEST");
+		//OLED_ShowString(8,2,"ZHONGJINGYUAN");
+	 //	OLED_ShowString(20,4,"2014/05/01");
+		OLED_ShowString(0,6,"ASCII:");
+		OLED_ShowString(63,6,"CODE:");
+		OLED_ShowChar(48,6,t);//显示ASCII字符
+		t++;
+		if(t>'~')t=' ';
+		OLED_ShowNum(103,6,t,3,16);//显示ASCII字符的码�?
+		HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

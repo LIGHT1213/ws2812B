@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F070x6</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;    ../Drivers/STM32F0xx_HAL_Driver/Inc;    ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy;    ../Drivers/CMSIS/Device/ST/STM32F0xx/Include;    ../Drivers/CMSIS/Include;    ..\UserFile</IncludePath>
+              <IncludePath>../Core/Inc;  ../Drivers/STM32F0xx_HAL_Driver/Inc;  ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy;  ../Drivers/CMSIS/Device/ST/STM32F0xx/Include;  ../Drivers/CMSIS/Include;  ..\UserFile;  ..\UserFile\OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -761,6 +761,16 @@
               <FileName>ws2812b.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\UserFile\ws2812b.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>OLED</GroupName>
+          <Files>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserFile\OLED\oled.c</FilePath>
             </File>
           </Files>
         </Group>

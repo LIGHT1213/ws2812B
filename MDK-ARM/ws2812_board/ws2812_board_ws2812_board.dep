@@ -1,10 +1,10 @@
 Dependencies for Project 'ws2812_board', Target 'ws2812_board': (DO NOT MODIFY !)
 CompilerVersion: 6150000::V6.15::ARMCLANG
-F (startup_stm32f070x6.s)(0x60D2D9EE)(--cpu Cortex-M0 -g --pd "__MICROLIB SETA 1"-I.\RTE\_ws2812_board-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 533"--pd "_RTE_ SETA 1"--pd "STM32F070x6 SETA 1"--pd "_RTE_ SETA 1"--list startup_stm32f070x6.lst--xref -o ws2812_board\startup_stm32f070x6.o--depend ws2812_board\startup_stm32f070x6.d)
-F (../Core/Src/main.c)(0x60D2E11A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/main.o -MD)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (startup_stm32f070x6.s)(0x60D33764)(--cpu Cortex-M0 -g --pd "__MICROLIB SETA 1"-I.\RTE\_ws2812_board-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 533"--pd "_RTE_ SETA 1"--pd "STM32F070x6 SETA 1"--pd "_RTE_ SETA 1"--list startup_stm32f070x6.lst--xref -o ws2812_board\startup_stm32f070x6.o--depend ws2812_board\startup_stm32f070x6.d)
+F (../Core/Src/main.c)(0x60D33762)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/main.o -MD)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -38,18 +38,20 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-I (..\Core\Inc\dma.h)(0x60D2D9EB)
-I (..\Core\Inc\i2c.h)(0x60D2D9EB)
-I (..\Core\Inc\spi.h)(0x60D2D9EB)
-I (..\Core\Inc\tim.h)(0x60D2D9EB)
-I (..\Core\Inc\usart.h)(0x60D2D9EB)
-I (..\Core\Inc\gpio.h)(0x60D2D9EB)
+I (..\Core\Inc\dma.h)(0x60D33761)
+I (..\Core\Inc\i2c.h)(0x60D33761)
+I (..\Core\Inc\spi.h)(0x60D33761)
+I (..\Core\Inc\tim.h)(0x60D33761)
+I (..\Core\Inc\usart.h)(0x60D33762)
+I (..\Core\Inc\gpio.h)(0x60D33761)
 I (..\UserFile\ws2812b.h)(0x60D2D9E4)
-F (../Core/Src/gpio.c)(0x60D2D9EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/gpio.o -MD)
-I (..\Core\Inc\gpio.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+I (..\UserFile\OLED\oled.h)(0x60BB0137)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F36D0AE)
+F (../Core/Src/gpio.c)(0x60D33761)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/gpio.o -MD)
+I (..\Core\Inc\gpio.h)(0x60D33761)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -83,11 +85,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/dma.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/dma.o -MD)
-I (..\Core\Inc\dma.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/dma.c)(0x60D33761)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/dma.o -MD)
+I (..\Core\Inc\dma.h)(0x60D33761)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -121,11 +123,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/i2c.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/i2c.o -MD)
-I (..\Core\Inc\i2c.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/i2c.c)(0x60D33761)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/i2c.o -MD)
+I (..\Core\Inc\i2c.h)(0x60D33761)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -159,11 +161,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/spi.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/spi.o -MD)
-I (..\Core\Inc\spi.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/spi.c)(0x60D33761)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/spi.o -MD)
+I (..\Core\Inc\spi.h)(0x60D33761)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -197,11 +199,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/tim.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/tim.o -MD)
-I (..\Core\Inc\tim.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/tim.c)(0x60D33761)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/tim.o -MD)
+I (..\Core\Inc\tim.h)(0x60D33761)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -235,11 +237,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/usart.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/usart.o -MD)
-I (..\Core\Inc\usart.h)(0x60D2D9EB)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/usart.c)(0x60D33762)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/usart.o -MD)
+I (..\Core\Inc\usart.h)(0x60D33762)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -273,10 +275,10 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/stm32f0xx_it.c)(0x60D2D9EB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_it.o -MD)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+F (../Core/Src/stm32f0xx_it.c)(0x60D33762)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_it.o -MD)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -310,11 +312,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_it.h)(0x60D2D9EB)
-F (../Core/Src/stm32f0xx_hal_msp.c)(0x60D2D9EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_msp.o -MD)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_it.h)(0x60D33762)
+F (../Core/Src/stm32f0xx_hal_msp.c)(0x60D33762)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -348,9 +350,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_i2c.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_i2c.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -384,9 +386,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_i2c_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_i2c_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -420,9 +422,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_rcc.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_rcc.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -456,9 +458,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_rcc_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_rcc_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -492,9 +494,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -528,9 +530,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_gpio.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_gpio.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -564,9 +566,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_dma.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_dma.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -600,9 +602,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_cortex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_cortex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -636,9 +638,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_pwr.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_pwr.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -672,9 +674,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_pwr_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_pwr_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -708,9 +710,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_flash.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_flash.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -744,9 +746,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_flash_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_flash_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -780,9 +782,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_exti.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_exti.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -816,9 +818,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_spi.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_spi.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -852,9 +854,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_spi_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_spi_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -888,9 +890,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_tim.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_tim.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -924,9 +926,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_tim_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_tim_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -960,9 +962,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_uart.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_uart.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -996,9 +998,9 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_uart_ex.o -MD)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/stm32f0xx_hal_uart_ex.o -MD)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -1032,7 +1034,7 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (../Core/Src/system_stm32f0xx.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/system_stm32f0xx.o -MD)
+F (../Core/Src/system_stm32f0xx.c)(0x6000EA6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/system_stm32f0xx.o -MD)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f070x6.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Include\core_cm0.h)(0x6000EA3F)
@@ -1044,7 +1046,7 @@ I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6000EA6F)
@@ -1068,11 +1070,11 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-F (..\UserFile\ws2812b.c)(0x60D2C9E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/ws2812b.o -MD)
+F (..\UserFile\ws2812b.c)(0x60D2C9E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/ws2812b.o -MD)
 I (..\UserFile\ws2812b.h)(0x60D2D9E4)
-I (..\Core\Inc\main.h)(0x60D2D9EC)
+I (..\Core\Inc\main.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
-I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D2D9EC)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
 I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
@@ -1106,4 +1108,46 @@ I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
 I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
-I (..\Core\Inc\tim.h)(0x60D2D9EB)
+I (..\Core\Inc\tim.h)(0x60D33761)
+F (..\UserFile\OLED\oled.c)(0x60D336AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ../UserFile -I ../UserFile/OLED-I./RTE/_ws2812_board-IC:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.0/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F070x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F070x6-o ws2812_board/oled.o -MD)
+I (..\UserFile\OLED\oled.h)(0x60BB0137)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F36D0AE)
+I (..\Core\Inc\main.h)(0x60D33762)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal.h)(0x6000EA6F)
+I (..\Core\Inc\stm32f0xx_hal_conf.h)(0x60D33762)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_def.h)(0x6000EA6F)
+I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x6000EA6F)
+I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f070x6.h)(0x6000EA6F)
+I (..\Drivers\CMSIS\Include\core_cm0.h)(0x6000EA3F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x6000EA3F)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6000EA3F)
+I (..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6000EA3F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\Drivers\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6000EA6F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F36D0AE)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_rcc_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_gpio_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_exti.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_dma_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_cortex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_flash_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_i2c_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_pwr_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_spi_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_tim_ex.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart.h)(0x6000EA6F)
+I (..\Drivers\STM32F0xx_HAL_Driver\Inc\stm32f0xx_hal_uart_ex.h)(0x6000EA6F)
+I (..\UserFile\OLED\oledfont.h)(0x60BB046D)
+I (..\Core\Inc\spi.h)(0x60D33761)
+I (..\Core\Inc\gpio.h)(0x60D33761)
