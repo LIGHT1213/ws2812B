@@ -418,7 +418,12 @@
                 "__clang_version__=\"12.0.0 (ssh://ds-gerrit/armcompiler/llvm-project e64d644232aba72041b013571dc92e0d3fb7b4e2)\"",
                 "__llvm__=1"
             ],
-            "intelliSenseMode": "${default}"
+            "intelliSenseMode": "${default}",
+            "search.exclude":{
+                "**/cmake-build-debug":true,
+                "**/MDK-ARM/DebugConfig":true,
+                "**/MDK-ARM/ws2812_board":true,
+            }
         }
     ],
     "version": 4

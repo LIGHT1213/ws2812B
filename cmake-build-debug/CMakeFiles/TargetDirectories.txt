@@ -1,0 +1,3 @@
+C:/Users/pan39/Desktop/singalchip/ws2812_board/cmake-build-debug/CMakeFiles/ws2812_board.elf.dir
+C:/Users/pan39/Desktop/singalchip/ws2812_board/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pan39/Desktop/singalchip/ws2812_board/cmake-build-debug/CMakeFiles/rebuild_cache.dir
