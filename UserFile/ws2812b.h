@@ -4,7 +4,7 @@
 
 #ifndef WS2812B_F411_WS2812B_H
 #include "main.h"
-#define LedTotalNumer 5
+#define LedTotalNumer 32
 #define T0H 19-1
 #define T1H 40-1
 typedef struct ws2812b
